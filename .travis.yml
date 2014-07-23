@@ -6,6 +6,8 @@ services:
 env:
   - MEMCACHE_HOST=127.0.0.1 MEMCACHE_PORT=11211
 
+
+
 php:
   # Can't test against 5.2; openssl is not available:
   # http://docs.travis-ci.com/user/languages/php/#PHP-installation
